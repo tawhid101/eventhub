@@ -4,7 +4,7 @@ EventHub is a full-stack web application for discovering, creating, and managing
 
 ## Live
 
-https://eventhub-30yk.onrender.com
+https://client-ilra.onrender.com/
 
 ## Features
 
