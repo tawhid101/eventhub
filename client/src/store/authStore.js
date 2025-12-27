@@ -23,7 +23,6 @@ const useAuthStore = create(
         try {
           const response = await authService.login(email, password);
           const { user, token } = response.data.data;
-          console.log("user object from login response: ", user)
           set({
             user,
             token,
@@ -49,7 +48,6 @@ const useAuthStore = create(
         try {
           const response = await authService.register(name, email, password);
           const { user, token } = response.data.data;
-          console.log("user object from register response: ", user)
           
           set({
             user,
@@ -88,7 +86,6 @@ const useAuthStore = create(
         set({ isLoading: true });
         try {
           const response = await authService.getMe(token);
-          console.log("Response from authService.getMe: ", response)
           set({
             user: response.data.user,
             isAuthenticated: true,

@@ -2,6 +2,10 @@
 
 EventHub is a full-stack web application for discovering, creating, and managing events. It provides a user-friendly interface for browsing events, a seamless registration process, and powerful tools for event organizers.
 
+## Live
+
+https://eventhub-30yk.onrender.com
+
 ## Features
 
 - **User Authentication:** Secure user registration and login with JWT authentication.
