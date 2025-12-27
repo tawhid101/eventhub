@@ -15,7 +15,7 @@ const app = express();
 app.use(helmet());
 app.use(cors({
   origin: process.env.NODE_ENV === 'production' 
-    ? ['https://eventhub-30yk.onrender.com'] 
+    ? ['https://client-ilra.onrender.com'] 
     : ['http://localhost:3000'],
   credentials: true
 }));
